@@ -1,6 +1,6 @@
 import bajrangViharImg from "@/assets/project_images/bajrang-vihar.png";
-import daduDayalNagarImg from "@/assets/project_images/dadu-dayal-nagar.webp";
-import gyanViharImg from "@/assets/project_images/gyan-vihar.webp";
+import daduDayalNagarImg from "@/assets/project_images/dadu-dayal-nagar.png";
+import gyanViharImg from "@/assets/project_images/gyan-vihar.png";
 import kapishEnclaveImg from "@/assets/project_images/kapish-enclave.png";
 import kapishResidencyImg from "@/assets/project_images/kapish-residency.png";
 import kapishViharImg from "@/assets/project_images/kapish-vihar.png";
@@ -15,9 +15,9 @@ import shivamResidencyImg from "@/assets/project_images/shivam-residency.png";
 import shriKrishnaViharImg from "@/assets/project_images/shri-krishna-vihar.png";
 import shriRamEnclaveImg from "@/assets/project_images/shri-ram-enclave.png";
 import shriShyamViharImg from "@/assets/project_images/shri-shyam-vihar.png";
-import shyamSarovarImg from "@/assets/project_images/shyam-sarovar.webp";
-import urmilaEnclaveImg from "@/assets/project_images/urmila-enclave.webp";
-import vasudevDharoharImg from "@/assets/project_images/vasudev-dharohar.webp";
+import shyamSarovarImg from "@/assets/project_images/shyam-sarovar.png";
+import urmilaEnclaveImg from "@/assets/project_images/urmila-enclave.png";
+import vasudevDharoharImg from "@/assets/project_images/vasudev-dharohar.png";
 import vatsalyaEnclaveImg from "@/assets/project_images/vatsalya-enclave.png";
 import yashViharImg from "@/assets/project_images/yash-vihar.png";
 

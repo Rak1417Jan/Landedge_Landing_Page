@@ -2,8 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState, useEffect } from "react";
 import { Link } from "@tanstack/react-router";
 import { Layout } from "@/components/Layout";
-import { projects } from "@/data/projects";
-import { ProjectCarousel } from "@/components/ProjectCarousel";
 import {
   CheckCircle2,
   MapPin,
@@ -323,24 +321,6 @@ function About() {
           </div>
         </div>
       </section> */}
-
-      {/* Our Projects Section */}
-      <section className="py-16 overflow-hidden">
-        <div className="mx-auto max-w-[1400px] px-6 md:px-12 mb-10">
-          <div className="flex flex-row flex-wrap justify-between items-end gap-x-4 gap-y-2">
-            <h2 className="text-2xl sm:text-3xl font-black tracking-tight">
-              Our <span className="text-brand italic">Projects</span>
-            </h2>
-            <Link
-              to="/projects"
-              className="text-xs sm:text-sm md:text-base font-bold text-brand hover:text-brand-dark flex items-center gap-1.5 transition-colors whitespace-nowrap"
-            >
-              View All Projects <span className="text-sm sm:text-lg">→</span>
-            </Link>
-          </div>
-        </div>
-        <ProjectCarousel items={projects} defaultSlug="shree-shyam-vihar" />
-      </section>
 
       {/* About Landedge Realty Section */}
       <section className="py-20 bg-background">
