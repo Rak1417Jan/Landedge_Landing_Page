@@ -18,6 +18,9 @@ import event5 from "@/assets/og_assets/Frame 4 (13).webp";
 import event6 from "@/assets/og_assets/Frame 4 (14).webp";
 import event7 from "@/assets/og_assets/Frame 4 (15).webp";
 import event8 from "@/assets/og_assets/Frame 4 (16).webp";
+import event9 from "@/assets/Events_assets/event_add 1.jpeg";
+import event10 from "@/assets/Events_assets/event_add 2.jpeg";
+import eventVideo from "@/assets/Events_assets/event_video_landscape.mp4";
 
 export const Route = createFileRoute("/events")({
   head: () => ({
@@ -38,6 +41,8 @@ const eventsData = [
   { id: 6, image: event6 },
   { id: 7, image: event7 },
   { id: 8, image: event8 },
+  { id: 9, image: event9 },
+  { id: 10, image: event10 },
 ];
 
 function Events() {
@@ -84,7 +89,7 @@ function Events() {
 
   return (
     <Layout>
-      <PageHero image={eventsHero} title="Events" />
+      <PageHero video={eventVideo} image={eventsHero} title="Events" />
 
       {/* Intro section */}
       <section className="py-12 bg-background">
