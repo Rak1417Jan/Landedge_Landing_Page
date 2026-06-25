@@ -7,7 +7,6 @@ import projectsHero from "@/assets/projects_hero.webp";
 import {
   MapPin,
   Building2,
-  Users,
   Award,
   CheckCircle2,
   LayoutGrid,
@@ -43,7 +42,6 @@ function Projects() {
     { name: "All Projects", icon: LayoutGrid },
     { name: "JDA Approved", icon: Award },
     { name: "RERA Approved", icon: ShieldCheck },
-    { name: "Society Approved", icon: Users },
     { name: "Government Approved", icon: CheckCircle2 },
   ];
 
@@ -57,7 +55,6 @@ function Projects() {
         
         if (categoryKey.includes("jda")) return approvedText.includes("jda");
         if (categoryKey.includes("rera")) return approvedText.includes("rera");
-        if (categoryKey.includes("society")) return approvedText.includes("society");
         if (categoryKey.includes("government")) return approvedText.includes("government");
         
         return false;

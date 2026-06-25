@@ -24,7 +24,7 @@ import {
 } from "lucide-react";
 import officeVideo from "@/assets/Landedge_Group_office.mp4";
 import director from "@/assets/director.jpg";
-import park from "@/assets/park-stats.webp";
+import park from "@/assets/park-stats.jpg";
 import landPlots from "@/assets/land_plots.webp";
 import maheshImg from "@/assets/og_assets/photo.webp";
 import goriImg from "@/assets/og_assets/photo (1).webp";
@@ -71,7 +71,7 @@ function About() {
       ]
     },
     {
-      name: "Mr. Narender Jangir",
+      name: "Mr. Narender Jangid",
       title: "Director's Message",
       image: narenderImg,
       message: [

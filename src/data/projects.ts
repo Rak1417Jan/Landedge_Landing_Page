@@ -30,7 +30,7 @@ export type Project = {
   area: "Residential Plots" | "Investment Plots" | "Farmhouse Land" | "Commercial Plots";
   type: string;
   status: "Completed" | "Ongoing";
-  approved: string; // E.g. "JDA Approved", "Society Approved", "Government Approved", "JDA and RERA Approved"
+  approved: string; // E.g. "JDA Approved", "Government Approved", "JDA and RERA Approved"
   description: string;
 };
 
@@ -63,13 +63,13 @@ export const projects: Project[] = [
   {
     slug: "krishna-nagar-vistar",
     name: "Krishna Nagar Vistar",
-    tagline: "A expansive and beautifully planned gated residential society located in Sanganer's emerging growth hub.",
+    tagline: "An expansive and beautifully planned gated residential township located in Sanganer's emerging growth hub.",
     image: krishnaNagarVistarImg,
     location: "300 Feet Road, Bhilwada Highway, Roopwas, Diggi Road, Sanganer, Jaipur",
     area: "Residential Plots",
     type: "Residential",
     status: "Ongoing",
-    approved: "Society Approved",
+    approved: "JDA Approved",
     description: "Krishna Nagar Vistar brings a well-planned residential layout to Sanganer, Jaipur. Situated along the major 300 Feet Road, this ongoing project offers spacious housing plots inside a tranquil and secure environment. Designed for families who want to build their dream homes on their own terms."
   },
   {
@@ -155,7 +155,7 @@ export const projects: Project[] = [
     area: "Investment Plots",
     type: "Investment",
     status: "Completed",
-    approved: "Society Approved",
+    approved: "JDA Approved",
     description: "Presented by Landedge, Shri Shyam Vihar is a completed premium plotted development located at 200 Feet Road, Pangaliya — where peaceful surroundings meet smart investment opportunities. Carefully planned to offer the perfect blend of independent plots and a secure, well-connected environment, it's the ideal place to build your dream home or grow your investment."
   },
   {
@@ -251,8 +251,8 @@ export const projects: Project[] = [
     area: "Investment Plots",
     type: "Investment",
     status: "Completed",
-    approved: "Society Approved",
-    description: "Dadudayal Nagar is a fully completed society-approved development in Pangaliya, Jaipur. Designed with peaceful living in mind, this project features wide internal roads, clean surrounding air, and easy access to local markets and transit hubs."
+    approved: "JDA Approved",
+    description: "Dadudayal Nagar is a fully completed JDA-approved development in Pangaliya, Jaipur. Designed with peaceful living in mind, this project features wide internal roads, clean surrounding air, and easy access to local markets and transit hubs."
   },
   {
     slug: "shri-ram-enclave",

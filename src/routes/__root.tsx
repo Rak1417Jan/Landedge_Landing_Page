@@ -14,7 +14,6 @@ import { SplashScreen } from "@/components/SplashScreen";
 import { projects } from "@/data/projects";
 import officeVideo from "@/assets/Landedge_Group_office.mp4";
 import director from "@/assets/director.jpg";
-import park from "@/assets/park-stats.webp";
 import landPlots from "@/assets/land_plots.webp";
 import maheshImg from "@/assets/og_assets/photo.webp";
 import goriImg from "@/assets/og_assets/photo (1).webp";
@@ -115,7 +114,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
             blogResidency,
             blogEnclave,
             director,
-            park,
             landPlots,
             maheshImg,
             goriImg,
